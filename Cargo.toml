@@ -21,3 +21,6 @@ clap = "2.31.2"
 histo = "0.1.0"
 relation = { path = "relation" }
 matrix-relation = { path = "matrix-relation" }
+
+[profile.release]
+debug = true
